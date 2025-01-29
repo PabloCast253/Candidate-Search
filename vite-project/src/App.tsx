@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router-dom';
-import Nav from '../vite-project/src/components/Nav';
+import Nav from './components/Nav';
 import React from 'react';
 
 function App() {
