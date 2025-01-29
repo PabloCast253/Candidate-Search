@@ -3,9 +3,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 
 import App from './App.tsx';
-import CandidateSearch from '../vite-project/src/pages/CandidateSearch.tsx';
-import SavedCandidates from '../vite-project/src/pages/SavedCandidates.tsx';
-import ErrorPage from '../vite-project/src/pages/ErrorPage.tsx';
+import CandidateSearch from './pages/CandidateSearch.tsx';
+import SavedCandidates from './pages/SavedCandidates.tsx';
+import ErrorPage from './pages/ErrorPage.tsx';
 import React from 'react';
 
 const router = createBrowserRouter([
